@@ -7,10 +7,10 @@ var navigate = (function() {
   });
 })();
 
-/*document.querySelector(".checkbox").addEventListener("click", e => {
-	document.querySelector(".tick").className = document
-		.querySelector(".tick")
-		.className.match("active")
-		? "tick"
-		: "tick active";
+document.querySelector(".checkbox").addEventListener("click", e => {
+  document.querySelector(".tick").className = document
+    .querySelector(".tick")
+    .className.match("active") ?
+    "tick" :
+    "tick active";
 });
