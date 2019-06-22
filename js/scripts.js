@@ -6,3 +6,11 @@ var navigate = (function() {
 		$('.' + dataName).toggle();
 	});
 })();
+
+document.querySelector(".checkbox").addEventListener("click", e => {
+	document.querySelector(".tick").className = document
+		.querySelector(".tick")
+		.className.match("active")
+		? "tick"
+		: "tick active";
+});
