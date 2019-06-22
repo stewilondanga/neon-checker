@@ -49,17 +49,17 @@ body {
   transform: rotate(45deg);
 }
 
-/*.title {
-	width: 100%;
-	text-align: center;
-	padding: 1rem 0;
-	color: #fc107f;
-	text-shadow: 0px 0px 12px rgba(252, 16, 127, 0.9);
-	font-family: "Anton", sans-serif;
-	font-size: 1.2rem;
+.title {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  color: #fc107f;
+  text-shadow: 0px 0px 12px rgba(252, 16, 127, 0.9);
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
 }
 
-.tick {
+/*.tick {
 	width: 60%;
 	height: 60%;
 	background: rgba(0, 0, 0, 0.25);
