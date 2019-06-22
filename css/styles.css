@@ -38,18 +38,18 @@ body {
   transform: skew(0, -10deg);
 }
 
-/*.checkbox {
-	position: relative;
-	width: 1.6rem;
-	height: 1.6rem;
-	-webkit-box-shadow: 0px 0px 6px 0px rgba(255, 255, 225, 0.8);
-	box-shadow: 0px 0px 6px 0px rgba(255, 255, 225, 0.8);
-	background: white;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
+.checkbox {
+  position: relative;
+  width: 1.6rem;
+  height: 1.6rem;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(255, 255, 225, 0.8);
+  box-shadow: 0px 0px 6px 0px rgba(255, 255, 225, 0.8);
+  background: white;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
-.title {
+/*.title {
 	width: 100%;
 	text-align: center;
 	padding: 1rem 0;
