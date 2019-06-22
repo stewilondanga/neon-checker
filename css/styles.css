@@ -69,14 +69,14 @@ body {
   transition: background 0.5s linear;
 }
 
-/*.tick.active {
-	background: #fc107f;
-	-webkit-animation: ticker 0.4s forwards;
-	animation: ticker 0.4s forwards;
-	animation: ticker 0.4s forwards;
+.tick.active {
+  background: #fc107f;
+  -webkit-animation: ticker 0.4s forwards;
+  animation: ticker 0.4s forwards;
+  animation: ticker 0.4s forwards;
 }
 
-@-webkit-keyframes ticker {
+/*@-webkit-keyframes ticker {
 	80% {
 		background: #fc107f;
 		-webkit-transform: scale(1.4) rotate(180deg);
