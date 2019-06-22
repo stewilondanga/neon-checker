@@ -76,14 +76,14 @@ body {
   animation: ticker 0.4s forwards;
 }
 
-/*@-webkit-keyframes ticker {
-	80% {
-		background: #fc107f;
-		-webkit-transform: scale(1.4) rotate(180deg);
-	}
+@-webkit-keyframes ticker {
+  80% {
+    background: #fc107f;
+    -webkit-transform: scale(1.4) rotate(180deg);
+  }
 }
 
-@keyframes ticker {
+/*@keyframes ticker {
 	80% {
 		background: #fc107f;
 		transform: scale(1.4) rotate(180deg);
