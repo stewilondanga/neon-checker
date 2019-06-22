@@ -83,14 +83,14 @@ body {
   }
 }
 
-/*@keyframes ticker {
-	80% {
-		background: #fc107f;
-		transform: scale(1.4) rotate(180deg);
-	}
+@keyframes ticker {
+  80% {
+    background: #fc107f;
+    transform: scale(1.4) rotate(180deg);
+  }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
